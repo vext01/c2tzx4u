@@ -10,7 +10,7 @@ develop for the ZX spectrum.
 Requirements
 ------------
 
-To build c2tzx4u and the example code:
+To build c2tzx4u:
   - C compiler
   - BSD make
 
