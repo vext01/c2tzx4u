@@ -80,7 +80,7 @@ int main(int argc, char* argv[])
       printf("* Example:                                 *\r\n");
       printf("* c2tzx header.bin my_code.bin my_prog.tzx *\r\n");
       printf("*                                          *\r\n");
-      printf("********************************************");
+      printf("********************************************\r\n");
       return 0;
    }
    FILE* header = fopen (argv[1], "rb" );
