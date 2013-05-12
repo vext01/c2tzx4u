@@ -3,6 +3,10 @@ c2tzx4u
 
 This is a port of c2tzx to UNIX-like operating systems.
 
+c2tzx converts z80 binary code into a Sinclair spectrum tzx tape image.
+This means that you can use cross-targeting C compiler, like SDCC to
+develop for the ZX spectrum.
+
 Requirements
 ------------
 
@@ -13,6 +17,9 @@ To build c2tzx4u and the example code:
 To cross compile C code into a tzx using c2tzx4u:
   - SDCC (Small Device C compiler)
   - objcopy (should come with your binutils install)
+
+To test:
+  - An emulator. Try fuse: http://fuse-emulator.sourceforge.net/
 
 Building c2tzx4u
 ----------------
